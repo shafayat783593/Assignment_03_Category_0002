@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,38 +18,14 @@
   <!-- Daisy UI cdn -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
 
-  <!--  -->
-  <script src="https://kit.fontawesome.com/0809dbdbbe.js" crossorigin="anonymous"></script>
+  <!-- font awesome cdn -->
+  <script src="https://kit.fontawesome.com/0809dbdbbe.js" crossorigin="anonymous"></script>>
 
-  <!-- custom css add -->
-  <style>
-  /* @theme{
-
-      @keyframes wiggle {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  } */
-
-
-  </style>
   <!-- custom font and colour add -->
   <script>
     tailwind.config = {
-
-
       theme: {
-
         extend: {
-          // animation:{
-          //   "roated":"spin 0.1s linear infinite"
-          // },
-    
-       
           fontFamily: {
             font1: ["Sora", "serif"],
             font2: ["Poppins", " sans-serif"],
@@ -64,7 +39,6 @@
     }
   </script>
 </head>
-
 <body class=" text-black font-font1 ">
   <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
     <section class="">
@@ -92,17 +66,16 @@
             </button>
           </div>
         </div>
-
         <div class="block sm:hidden ">
           <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost text-second ">
+            <div tabindex="0" role="button" class="btn btn-ghost text-second  text-3xl ">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
             </div>
             <ul
-              class=" dropdown-content relative right-7 bg-green-400 h-[400px] w-[300px] text-center space-y-12  py-12 rounded-xl">
+              class=" dropdown-content relative right-7 bg-green-800 h-[400px] w-[300px] text-center space-y-12  py-12 rounded-xl">
               <li><a class="text-2xl " href="">Product</a></li>
               <li><a class="text-2xl" href="">Service</a></li>
               <li><a class="text-2xl" href="">Contact us</a></li>
@@ -189,7 +162,7 @@
       <div class="flex justify-around gap-20 flex-col sm:flex-row">
         <div class="sm:w-3/6 sm:px-14 ">
           <div>
-            <h2 class="text-second text-2xl">About Us</h2>
+            <h2 class="text-second text-4xl">About Us</h2>
             <h1 class="text-5xl font-semibold my-5  text-second">Why We Are The Best</h1>
             <p>Quis autem vel eum iure reprehenderit qui in evoluptate velit esse quam nihil molestiae consequatur, vel
               illum qui dolorem eum fugiat quo voluptas nulla pariatureaque ipsa quae ab illo inventore veritatis et
@@ -223,7 +196,7 @@
             <div
               class=" bg-[#ffffff]   shadow-[0_6px_38px_rgb(238,238,252)] hover:bg-[#EFEBE3] rounded-xl cursor-pointer  transition delay-150 duration-300 ease-in-out">
               <div class=" px-6 py-4 space-y-4 items-center text-center ">
-                <img class=" mx-auto" src="./c2-assets/about-services-img2.png" alt="">
+                <img class=" mx-auto" src="./c2-assets/about-services-img4.png" alt="">
                 <h2 class="text-2xl">Discount
                 </h2>
               </div>
@@ -439,17 +412,16 @@
             </div>
             <div class="text-center  space-y-5  ">
               <img class="w-full" src="./c2-assets/india-gate-mock-up.png" alt="">
-
             </div>
           </div>
         </div>
 
       </div>
-
     </section>
   </main>
 
   <footer class="w-full bg-[#179800] h-[650px] relative  ">
+    <!-- footer Grocery News -->
     <section
       class="w-11/12  mx-auto bg-[#EFEBE3] rounded-3xl absolute -top-80 left-4 sm:-top-56 sm:left-16 justify-center items-center ">
 
@@ -471,11 +443,7 @@
       </div>
 
     </section>
-
-
-
-
-
+    <!--     footer menue section -->
 
     <div class="w-10/12 flex flex-col sm:flex-row justify-around text-white absolute bottom-0 sm:bottom-28 p-7 sm:p-0 ">
 
@@ -499,10 +467,6 @@
         </div>
       </div>
     </div>
-
-
-
   </footer>
 </body>
-
 </html>
